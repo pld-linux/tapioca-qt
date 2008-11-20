@@ -8,7 +8,7 @@ Summary:	Tapioca Qt
 Summary(pl.UTF-8):	Tapioca Qt
 Name:		tapioca-qt
 Version:	0.17.7
-Release:	0.%{snap}.1
+Release:	0.%{snap}.2
 License:	LGPL v2.1
 Group:		X11/Applications
 Source0:	%{name}-%{version}-%{snap}.tar.gz
@@ -21,7 +21,7 @@ BuildRequires:	cmake >= 2.6.2
 BuildRequires:	qt4-build >= %{qt_ver}
 BuildRequires:	qt4-qmake >= %{qt_ver}
 BuildRequires:	rpmbuild(macros) >= 1.293
-BuildRequires:	telepathy-qt >= 0.17.7
+BuildRequires:	telepathy-qt-devel >= 0.17.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
