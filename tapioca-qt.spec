@@ -30,7 +30,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %package devel
 Summary:        Header files for tapioca-qt library
-Summary(pl.UTF-8):      Pliki nag舿B贸wkowe biblioteki tapioca-qt
+Summary(pl.UTF-8):      Pliki nag艂贸wkowe biblioteki tapioca-qt
 Group:          Development/Libraries
 Requires:      %{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Requires:      %{name} = %{version}-%{release}
 Header files for tapioca-qt library.
 
 %description devel -l pl.UTF-8
-Pliki nag舿B贸wkowe biblioteki tapioca-qt.
+Pliki nag艂贸wkowe biblioteki tapioca-qt.
 
 %prep
 %setup -q -n %{name}-%{version}-%{snap}
