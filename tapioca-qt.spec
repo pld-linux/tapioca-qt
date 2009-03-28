@@ -8,7 +8,7 @@ Summary:	Tapioca Qt
 Summary(pl.UTF-8):	Tapioca Qt
 Name:		tapioca-qt
 Version:	0.17.7
-Release:	0.%{snap}.2
+Release:	0.%{snap}.3
 License:	LGPL v2.1
 Group:		X11/Applications
 Source0:	%{name}-%{version}-%{snap}.tar.gz
